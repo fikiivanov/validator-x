@@ -1,0 +1,13 @@
+.second-stores {
+    &__inner {
+        h1 {}
+
+        .stores {
+            min-width: 80%;
+            min-height: 80vh;
+            display: flex;
+            flex-wrap: wrap;
+         
+        }
+    }
+}
