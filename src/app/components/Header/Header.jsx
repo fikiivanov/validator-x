@@ -6,9 +6,9 @@ const Header = () => {
         <div className='header'>
             <div className='header__inner'>
                 <ul>
-                    <li><Link href={"/kaulfland"}>Kaulfland</Link></li>
+                    <li><Link href={"/kaulfland"}>Кауфланд</Link></li>
                     
-                    <li><Link href={"/billa"}>Billa</Link></li>
+                    <li><Link href={"/billa"}>Билла</Link></li>
                 </ul>
             </div>
         </div>
