@@ -1,0 +1,29 @@
+$main: #265E86;
+
+.header {
+    background-color: $main;
+    text-decoration: none;
+
+    &__inner {
+        ul {
+            padding: 10px;
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+
+            li {
+                a {
+                    font-size: larger;
+                    font-family: 'Roboto';
+                    color: aliceblue;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: lightblue;
+                    transition: color ease-in-out 150ms;
+                }
+            }
+        }
+    }
+}

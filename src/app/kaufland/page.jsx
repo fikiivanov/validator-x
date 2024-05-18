@@ -1,10 +1,11 @@
+'use client'
 import React, { useState } from 'react'
 import Header from '../components/Header/Header'
+import { firstStores } from '../../../public/stores'
 
 const page = () => {
 
-    const [stores, setStores] = useState([])
-    const [state, setState] = useState(initialState)
+    const [state, setState] = useState(firstStores)
     return (
 
         <div className='first-stores'>
@@ -12,7 +13,7 @@ const page = () => {
             <div className="first-stores__inner">
                 <div className="shell">
 
-
+                    cvs
                 </div>
             </div>
         </div>
