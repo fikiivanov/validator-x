@@ -8,10 +8,10 @@ import Menu from '../components/Menu/Menu'
 const Page = () => {
     const [stores, setStores] = useState(firstStores);
 
-    return (
-        <div className='second-stores'>
-            <Header />
-            <div className="shell">
+    return (<>
+        <Header />
+        <div className="shell">
+            <div className='second-stores'>
                 <div className="second-stores__inner">
                     <h1>Билла</h1>
                     <div className='wrapper'>
@@ -25,7 +25,8 @@ const Page = () => {
 
             </div>
         </div>
-    );
+    </>);
+
 }
 
 export default Page;

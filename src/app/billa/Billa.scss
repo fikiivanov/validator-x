@@ -1,21 +1,23 @@
 .second-stores {
     background-color: #E0E0DE;
+
     &__inner {
+
         h1 {
             letter-spacing: 2px;
             color: #153247;
             text-align: center;
-            padding: 2.5rem 1rem 1rem 1rem;
+            padding: 5.5rem 1rem 3.5rem 1rem;
         }
 
         .wrapper {
             display: flex;
-
+            gap: 2rem;
             .stores {
-                max-width: 70%;
                 display: flex;
-                gap: 15px;
                 flex-wrap: wrap;
+                gap: 15px;
+                max-width: 70%;
             }
         }
     }
