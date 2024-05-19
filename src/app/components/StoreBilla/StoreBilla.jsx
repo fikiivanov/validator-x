@@ -28,7 +28,6 @@ const StoreBilla = ({ currentStore, setStores }) => {
         if (storedStores) {
             parsedStores = JSON.parse(storedStores);
         }
-
         // Find the index of the current store in the parsed stores array
         const index = parsedStores.findIndex(store => store.number === currentStore.number);
         if (index !== -1) {
@@ -38,10 +37,8 @@ const StoreBilla = ({ currentStore, setStores }) => {
             // If the current store is not found, add it to the parsed stores array
             parsedStores.push({ number: currentStore.number, checked });
         }
-
         // Save the updated stores array to local storage
         localStorage.setItem('stores', JSON.stringify(parsedStores));
-
         // Update the state in the parent component
         setStores(parsedStores);
     }, [checked]);

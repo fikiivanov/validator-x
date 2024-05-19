@@ -20,6 +20,8 @@
     }
 
     &__inner:hover {
-        color: rgba(80, 67, 82, 0.982)
+        scale: 1.05;
+        color: rgba(80, 67, 82, 0.982);
+        transition: all ease 150ms;
     }
 }
