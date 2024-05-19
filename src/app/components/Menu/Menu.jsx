@@ -1,6 +1,5 @@
 import React from 'react';
 import './Menu.scss'
-import ProgressBar from "@ramonak/react-progress-bar";
 import { ProgressIndicator } from '../ProgessIndicator/ProgressIndicator';
 
 const Menu = ({ stores, setStores }) => {
@@ -28,7 +27,7 @@ const Menu = ({ stores, setStores }) => {
                         <p>Трябва и да презаредиш ръчно!</p>
                     </div>
 
-                    <ProgressIndicator stores={stores} />
+                   <ProgressIndicator stores={stores}/>
                 </div>
             </div>
         </div>
