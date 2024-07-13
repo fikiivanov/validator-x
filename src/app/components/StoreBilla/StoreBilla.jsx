@@ -25,11 +25,12 @@ const StoreBilla = ({ currentStore, setStores }) => {
         // Update local storage whenever the checked state changes
         const storedStores = localStorage.getItem('stores');
         let parsedStores = [];
+        let currentStoreNum=currentStore.number
         if (storedStores) {
             parsedStores = JSON.parse(storedStores);
         }
         // Find the index of the current store in the parsed stores array
-        const index = parsedStores.findIndex(store => store.number === currentStore.number);
+        const index = parsedStores.findIndex(store => store.number === currentStoreNum);
         if (index !== -1) {
             // Update the checked property of the current store in the parsed stores array
             parsedStores[index].checked = checked;

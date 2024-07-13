@@ -5,12 +5,13 @@ export default function Home() {
     return (
         <main>
             <div className="home">
+                <Header />
+                
                 <div className="shell">
                     <div className="home__inner">
-                        <Header />
- 
+
                         <h1>
-                            Валидатор  X
+                            Валидатор
                         </h1>
                     </div>
                 </div>

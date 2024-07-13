@@ -10,14 +10,19 @@ const Page = () => {
 
     return (<>
         <Header />
+
         <div className="shell">
             <div className='second-stores'>
                 <div className="second-stores__inner">
                     <h1>Билла</h1>
+
                     <div className='wrapper'>
                         <div className='stores'>
-                            {stores.map((store) => <StoreBilla key={store.id} stores={stores} currentStore={store} setStores={setStores} />)}
+                            {stores.map((store) => <StoreBilla key={store.id}
+                                
+                            stores={stores} currentStore={store} setStores={setStores} />)}
                         </div>
+
                         <Menu stores={stores} setStores={setStores} />
 
                     </div>
