@@ -38,14 +38,14 @@ const StoreBulmag = ({ currentStore, setStores }) => {
                 parsedStores[index].checked = checked;
             } else {
                 // If the current store is not found, add it to the parsed stores array
-                parsedStores.push({ number: currentStore.number, checked });
+                parsedStores.push({name:currentStore.name, number: currentStore.number, checked });
             }
             // Save the updated stores array to local storage
             localStorage.setItem('secondStores', JSON.stringify(parsedStores));
             // Update the state in the parent component
             setStores(parsedStores);
         }
-    }, [checked, currentStore.number, setStores]);
+    }, [checked, currentStore.number ,currentStore.name, setStores]);
 
     return (
         <div className="store-bulmag">
