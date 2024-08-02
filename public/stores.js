@@ -105,7 +105,7 @@ export const secondStores = [
     { name: "БУЛМАГ 5", number: 8876, checked: false },
     { name: "БУЛМАГ 6", number: 1154, checked: false },
     { name: "БУЛМАГ 7", number: 2081, checked: false },
-    { name: "БУЛМАГ 10", number: 4589, checked: false },
+    { name: "БУЛМАГ 10", number: 1471, checked: false },
     { name: "БУЛМАГ 11", number: 864, checked: false },
     { name: "БУЛМАГ 12", number: 865, checked: false },
     { name: "БУЛМАГ 13", number: 840, checked: false },
