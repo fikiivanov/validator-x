@@ -12,8 +12,8 @@ const Page = () => {
         <Header />
 
         <div className="shell">
-            <div className='second-stores'>
-                <div className="second-stores__inner">
+            <div className='first-stores'>
+                <div className="first-stores__inner">
                     <h1>Билла</h1>
 
                     <div className='wrapper'>
