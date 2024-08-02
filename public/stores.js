@@ -86,8 +86,18 @@ export const firstStores = [
     { id: 85, number: 801, checked: false },
     { id: 86, number: 803, checked: false },
     { id: 87, number: 810, checked: false },
-    { id: 88, number: 812, checked: false }
+    { id: 88, number: 601, checked: false },
+    { id: 89, number: 339, checked: false },
+    { id: 90, number: 332, checked: false },
+    { id: 91, number: 706, checked: false },
+    { id: 92, number: 705, checked: false },
+    { id: 93, number: 324, checked: false },
+    { id: 94, number: 316, checked: false },
+    { id: 95, number: 317, checked: false },
+    { id: 96, number: 325, checked: false },
+    { id: 97, number: 626, checked: false }
 ];
+
 
 export const secondStores = [
     { name: "БУЛМАГ 2", number: 266, checked: false },
