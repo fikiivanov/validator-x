@@ -4,6 +4,7 @@ import Header from '../components/Header/Header'
 import { secondStores } from '../../../public/stores'
 import StoreBulmag from '../components/StoreBulmag/StoreBulmag'
     import './Bulmag.scss'
+import Menu from '../components/Menu/Menu'
 const Page = () => {
     const [stores, setStores] = useState(() => {
         if (typeof window !== 'undefined') {
@@ -37,6 +38,7 @@ const Page = () => {
                                     />
                                 ))}
                             </div>
+                            <Menu stores={stores} setStores={setStores} />
                         </div>
                     </div>
                 </div>

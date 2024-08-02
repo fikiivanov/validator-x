@@ -7,7 +7,7 @@ const StoreBilla = ({ currentStore, setStores }) => {
     const [checked, setChecked] = useState(() => {
         // Try to get the 'stores' data from local storage
         if (typeof window !== 'undefined') {
-            const storedStores = localStorage.getItem('stores');
+            const storedStores = localStorage.getItem('firstStores');
             if (storedStores) {
                 // Parse the stored data and find if the current store is checked
                 const parsedStores = JSON.parse(storedStores);
@@ -27,7 +27,7 @@ const StoreBilla = ({ currentStore, setStores }) => {
     useEffect(() => {
         if (typeof window !== 'undefined') {
             // Update local storage whenever the checked state changes
-            const storedStores = localStorage.getItem('stores');
+            const storedStores = localStorage.getItem('firstStores');
             let parsedStores = [];
             if (storedStores) {
                 parsedStores = JSON.parse(storedStores);
@@ -42,7 +42,7 @@ const StoreBilla = ({ currentStore, setStores }) => {
                 parsedStores.push({ number: currentStore.number, checked });
             }
             // Save the updated stores array to local storage
-            localStorage.setItem('stores', JSON.stringify(parsedStores));
+            localStorage.setItem('firstStores', JSON.stringify(parsedStores));
             // Update the state in the parent component
             setStores(parsedStores);
         }
