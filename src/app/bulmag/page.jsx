@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Header from '../components/Header/Header'
 import { secondStores } from '../../../public/stores'
 import StoreBulmag from '../components/StoreBulmag/StoreBulmag'
-import './Bulmag.scss'
-import Menu from '../components/Menu/Menu'
+    import './Bulmag.scss'
 const Page = () => {
     const [stores, setStores] = useState(() => {
         if (typeof window !== 'undefined') {
@@ -28,6 +27,7 @@ const Page = () => {
                 <div className='second-stores'>
                     <div className="second-stores__inner">
                         <h1>Булмаг</h1>
+                        
                         <div className='wrapper'>
                             <div className='stores'>
                                 {stores.map((store) => (

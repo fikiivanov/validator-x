@@ -1,6 +1,5 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import { FaStoreAlt } from "react-icons/fa";
 import './StoreBulmag.scss';
 
 const StoreBulmag = ({ currentStore, setStores }) => {
