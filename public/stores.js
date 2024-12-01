@@ -71,7 +71,7 @@ export const firstStores = [
     { id: 69, number: 548, checked: false },
     { id: 70, number: 550, checked: false },
     { id: 71, number: 551, checked: false },
-    { id: 72, number: 558, checked: false }, // Added here
+    { id: 72, number: 558, checked: false },
     { id: 73, number: 601, checked: false },
     { id: 74, number: 603, checked: false },
     { id: 75, number: 604, checked: false },
@@ -82,7 +82,7 @@ export const firstStores = [
     { id: 80, number: 618, checked: false },
     { id: 81, number: 621, checked: false },
     { id: 82, number: 622, checked: false },
-    { id: 83, number: 624, checked: false }, // Added here
+    { id: 83, number: 624, checked: false },
     { id: 84, number: 625, checked: false },
     { id: 85, number: 626, checked: false },
     { id: 86, number: 629, checked: false },
@@ -96,12 +96,13 @@ export const firstStores = [
     { id: 94, number: 715, checked: false },
     { id: 95, number: 717, checked: false },
     { id: 96, number: 718, checked: false },
-    { id: 97, number: 721, checked: false }, // Added here
-    { id: 98, number: 801, checked: false },
-    { id: 99, number: 803, checked: false },
-    { id: 100, number: 810, checked: false },
-    { id: 101, number: 812, checked: false }, // Added here
-    { id: 102, number: 816, checked: false }  // Added here
+    { id: 97, number: 721, checked: false },
+    { id: 98, number: 723, checked: false }, // Added here
+    { id: 99, number: 801, checked: false },
+    { id: 100, number: 803, checked: false },
+    { id: 101, number: 810, checked: false },
+    { id: 102, number: 812, checked: false },
+    { id: 103, number: 816, checked: false }
 ];
 
 
