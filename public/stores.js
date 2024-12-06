@@ -104,3 +104,21 @@ export const firstStores = [
     { id: 103, number: 812, checked: false },
     { id: 104, number: 816, checked: false }
 ];
+
+export const secondStores = [
+    { name: "БУЛМАГ 2", number: 266, checked: false },
+    { name: "БУЛМАГ 4", number: 5612, checked: false },
+    { name: "БУЛМАГ 5", number: 8876, checked: false },
+    { name: "БУЛМАГ 6", number: 1154, checked: false },
+    { name: "БУЛМАГ 7", number: 4168, checked: false },
+    { name: "БУЛМАГ 10", number: 1471, checked: false },
+    { name: "БУЛМАГ 11", number: 864, checked: false },
+    { name: "БУЛМАГ 12", number: 865, checked: false },
+    { name: "БУЛМАГ 13", number: 840, checked: false },
+    { name: "БУЛМАГ 15", number: 8697, checked: false },
+    { name: "БУЛМАГ 16", number: 2305, checked: false },
+    { name: "БУЛМАГ 17", number: 338, checked: false },
+    { name: "БУЛМАГ 18", number: 416, checked: false },
+    { name: "БУЛМАГ 19", number: 876, checked: false }
+];
+
