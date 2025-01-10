@@ -103,7 +103,7 @@ export const firstStores = [
     { id: 102, number: 810, checked: false },
     { id: 103, number: 812, checked: false },
     { id: 104, number: 816, checked: false }
-];
+]; 
 
 export const secondStores = [
     { name: "БУЛМАГ 2", number: 266, checked: false },
