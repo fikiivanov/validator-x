@@ -123,6 +123,7 @@ export const secondStores = [
     { name: "БУЛМАГ 16", number: 2305, checked: false },
     { name: "БУЛМАГ 17", number: 338, checked: false },
     { name: "БУЛМАГ 18", number: 416, checked: false },
-    { name: "БУЛМАГ 19", number: 876, checked: false }
+    { name: "БУЛМАГ 19", number: 876, checked: false },
+    { name: "БУЛМАГ 20", number: 4491, checked: false }
 ];
 
